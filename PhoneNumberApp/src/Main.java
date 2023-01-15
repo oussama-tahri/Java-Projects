@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         // this will read a text file and will retrieve phone number
-        String filename = "path";
+        String filename = "put the path of your file here";
         File file = new File(filename);
         String[] phoneNums = new String[9];
         String phoneNum = null;
